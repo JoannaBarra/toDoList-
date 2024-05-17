@@ -1,0 +1,223 @@
+:root {
+  --color-primary: #2e5599;
+  --color-error: #cd2525;
+  --color-primary-light: #f5f7fa;
+}
+
+body {
+  background-color: var(--color-primary-light);
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.button {
+  width: 193px;
+  height: 56px;
+  color: #ffffff;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-weight: 700;
+  /* text-align: center; */
+}
+.link {
+  font-weight: 700;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.blue {
+  color: var(--color-primary);
+}
+.red {
+  color: var(--color-error);
+}
+.header {
+  padding: 24px 48px;
+  border-bottom: 1px solid var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.linkHeader {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.layout {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 16px;
+  background-color: var(--color-primary-light);
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+}
+
+.contenant {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.task {
+  display: flex;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 24px;
+  gap: 16px;
+}
+.tacheEnCours,
+.tacheTermine,
+.tacheEnCours {
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.round {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #2e5599;
+  color: #ffffff;
+  border-radius: 24px;
+}
+.frame4 {
+  font-weight: 600;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+.frame3 {
+  display: flex;
+  gap: 8px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+.plein {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #2e5599;
+  border-radius: 24px;
+  border: 1px solid #2e5599;
+}
+.modal {
+  position: fixed;
+  width: 415px;
+  height: 176px;
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  padding: 40px;
+  gap: 24px;
+  background-color: #ffffff;
+}
+.modalInfo {
+  width: 335px;
+  height: 48px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.frame10 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  padding: 40px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creerTache {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.frame5 {
+  width: 900px;
+  height: 410px;
+  padding: 48px;
+  gap: 24px;
+  background-color: #ffffff;
+}
+.titrecontainer {
+  width: 804px;
+  height: 72px;
+  gap: 8px;
+}
+.titre,
+.contenu,
+.modifTask {
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.contenu {
+  margin-top: 24px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.textfield {
+  width: 804px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 8px 24px;
+  gap: 10px;
+  background-color: #ffffff;
+}
+.textcontenu {
+  width: 804px;
+  height: 112px;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 8px 24px;
+  gap: 10px;
+}
+.linkbutton {
+  width: 804px;
+  height: 122px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonnav {
+  padding: 16px 24px;
+  gap: 10px;
+}
+
+/* .linknav {
+  width: 218px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+} */
